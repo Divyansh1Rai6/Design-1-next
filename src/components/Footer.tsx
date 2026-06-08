@@ -70,7 +70,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
           <p>&copy; 2016 - {new Date().getFullYear()} Excellence Corporation Ltd. All rights reserved.</p>
-          <p>Disclaimer: ExcellencePro does not endorse seller claims or information. Please verify all details independently before proceeding.
+          <p>Disclaimer: Excellence Corp does not endorse seller claims or information. Please verify all details independently before proceeding.
           </p>
         </div>
       </div>
