@@ -8,6 +8,7 @@ import InstagramFeed from './components/InstagramFeed';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import ChatWidget from "./components/ChatWidget";
 import Marquee from './components/Marquee';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <div id="usp"><USPSection /></div>
       <div id="instagram"><InstagramFeed /></div>
       <div id="contact"><ContactSection /></div>
+      <ChatWidget />
       <Footer />
       <ScrollToTop />
     </div>
