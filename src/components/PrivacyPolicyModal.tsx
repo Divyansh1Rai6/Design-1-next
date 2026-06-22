@@ -46,6 +46,9 @@ export default function PrivacyPolicyModal({
               registered as [LEGAL_NAME], having its registered office at
               [REGISTERED_ADDRESS].
             </p>
+            <p>For customer support, you may contact us at [SUPPORT_EMAIL] or [SUPPORT_PHONE]. Our GST Registration Number is [GST_NUMBER].
+</p>
+            <p>For all privacy-related requests, corrections, complaints, or data deletion requests, users may contact us at [PRIVACY_CONTACT_EMAIL].</p>
           </section>
 
           <section>
@@ -53,11 +56,10 @@ export default function PrivacyPolicyModal({
               2. Information We Collect
             </h3>
             <p>
-              We may collect personal, transactional, technical, and operational
-              information including name, email address, mobile number,
-              addresses, account credentials, order history, payment status,
-              invoices, support interactions, analytics data, and related
-              information required to provide our services.
+              In order to provide our services efficiently, we may collect certain personal, transactional, technical, and operational information from users. This may include your name, email address, mobile number, billing address, shipping address, company name, GST details, account credentials, authentication records, order history, payment status, invoice details, customer service interactions, and communication preferences.
+We may also collect technical information such as IP address, browser type, operating system, device identifiers, session information, website activity, approximate location information, and other analytics-related data generated through your interaction with the Platform.
+Where permitted by law and user consent, we may collect marketing-related information to understand preferences, improve customer experience, and communicate relevant offers and updates
+
             </p>
           </section>
 
@@ -66,9 +68,9 @@ export default function PrivacyPolicyModal({
               3. How Information Is Collected
             </h3>
             <p>
-              Information may be collected when you create an account, place
-              orders, subscribe to newsletters, communicate with support, use
-              our applications, or interact with the Platform.
+              nformation may be collected when you create an account, place an order, subscribe to newsletters, submit enquiries, communicate with customer support, participate in promotional campaigns, use our mobile application, interact with advertisements, or browse our Platform.
+Certain information may also be collected automatically through cookies, tracking technologies, analytics platforms, advertising networks, and authorized third-party integrations used to operate and improve the Platform.
+
             </p>
           </section>
 
@@ -81,6 +83,7 @@ export default function PrivacyPolicyModal({
               provide support, improve services, perform analytics, prevent
               fraud, comply with legal obligations, and maintain business
               records.
+              Where permitted by applicable laws, we may also use information for marketing, promotional campaigns, customer engagement, product recommendations, and service improvement initiatives.
             </p>
           </section>
 
@@ -91,7 +94,10 @@ export default function PrivacyPolicyModal({
             <p>
               Payments may be processed by authorized third-party payment
               providers. We do not store complete card details, banking
-              credentials, or UPI PINs.
+              credentials, or UPI PINs, or other sensitive payment authentication information on our servers.
+
+              Payment transactions are handled directly by payment service providers that maintain their own privacy, security, and compliance standards. Users are encouraged to review the privacy policies of such providers before completing any transaction.
+
             </p>
           </section>
 
@@ -100,8 +106,8 @@ export default function PrivacyPolicyModal({
               6. Shipping and Order Fulfilment
             </h3>
             <p>
-              We may share customer information with logistics and shipping
-              providers for order fulfilment and delivery purposes.
+             To facilitate order processing and delivery, we may share relevant customer information with logistics and shipping service providers, including [SHIPPING_PARTNER_NAME].
+Such information may include the customer's name, contact number, delivery address, order details, and shipment-related information necessary to complete order fulfilment, provide shipment tracking, manage returns, and deliver customer support services.
             </p>
           </section>
 
@@ -110,9 +116,9 @@ export default function PrivacyPolicyModal({
               7. Marketing Communications
             </h3>
             <p>
-              We may send service notifications, promotional messages, emails,
-              SMS, WhatsApp communications, and updates regarding products and
-              services.
+             From time to time, we may send transactional messages, service notifications, order updates, promotional emails, SMS communications, WhatsApp messages, push notifications, and marketing content relating to our products and services.
+Users may opt out of promotional communications at any time by following the unsubscribe instructions provided in such communications or by contacting us through [SUPPORT_EMAIL]. However, transactional communications relating to orders, payments, security, and account management may continue to be sent where necessary.
+
             </p>
           </section>
 
@@ -121,9 +127,10 @@ export default function PrivacyPolicyModal({
               8. Cookies and Tracking Technologies
             </h3>
             <p>
-              The Platform uses cookies and tracking technologies for analytics,
-              authentication, personalization, security, and advertising
-              purposes.
+             The Platform uses cookies and similar technologies to enhance functionality, improve user experience, understand visitor behavior, measure advertising effectiveness, and support security operations.
+These technologies may be used for authentication, cart management, analytics, performance monitoring, personalization, advertising, remarketing, and audience measurement purposes. We may also use services provided by third-party analytics and advertising platforms, including Google Analytics, Google Ads, Meta advertising services, and other authorized technology partners.
+Users may modify browser settings to manage or disable cookies. However, certain Platform features may not function properly if cookies are disabled.
+
             </p>
           </section>
 
@@ -132,9 +139,9 @@ export default function PrivacyPolicyModal({
               9. Third-Party Service Providers
             </h3>
             <p>
-              We may engage third-party providers for hosting, payments,
-              logistics, analytics, marketing, customer support, and security
-              services.
+              We may engage third-party service providers to assist with website hosting, cloud infrastructure, payment processing, shipping and logistics, analytics, marketing automation, customer support, communication services, security monitoring, and other operational activities.
+Such service providers may access information only to the extent necessary to perform services on our behalf and are expected to maintain appropriate confidentiality and security standards.
+
             </p>
           </section>
 
@@ -143,8 +150,9 @@ export default function PrivacyPolicyModal({
               10. Data Storage and Security
             </h3>
             <p>
-              We implement reasonable technical and organizational safeguards to
-              protect personal information.
+            We implement reasonable technical, organizational, and administrative measures to safeguard personal information against unauthorized access, disclosure, alteration, loss, misuse, or destruction.
+Information may be stored on cloud-based infrastructure, managed hosting environments, third-party business systems, or other authorized storage facilities located within or outside India. While we strive to maintain appropriate security measures, no method of electronic transmission or storage can be guaranteed to be completely secure.
+
             </p>
           </section>
 
@@ -153,8 +161,9 @@ export default function PrivacyPolicyModal({
               11. Data Retention
             </h3>
             <p>
-              Personal information is retained as long as reasonably necessary
-              for legal, operational, and business purposes.
+             Personal information will be retained for as long as reasonably necessary to provide services, maintain business records, comply with legal requirements, resolve disputes, prevent fraud, enforce agreements, and protect legitimate business interests.
+Where required by law, certain information may continue to be retained even after a user account has been closed or deleted.
+
             </p>
           </section>
 
@@ -163,8 +172,9 @@ export default function PrivacyPolicyModal({
               12. User Rights and Requests
             </h3>
             <p>
-              Users may request access, correction, deletion, or modification of
-              their personal information by contacting us.
+             Users who wish to access, correct, update, delete, or otherwise manage their personal information may submit a request to [PRIVACY_CONTACT_EMAIL].
+We may require reasonable identity verification before processing such requests. Requests will be reviewed and addressed in accordance with applicable laws and operational requirements.
+
             </p>
           </section>
 
@@ -173,8 +183,9 @@ export default function PrivacyPolicyModal({
               13. Children's Privacy
             </h3>
             <p>
-              The Platform is intended for users meeting the minimum age
-              requirement specified by applicable law.
+              The Platform is intended for individuals who meet the minimum age requirement of [MINIMUM_AGE_REQUIREMENT] years.
+If we become aware that personal information has been collected from a child without appropriate authorization or legal basis, we may take reasonable steps to delete such information. Parents or legal guardians who believe that a child has provided information through the Platform may contact us for assistance.
+
             </p>
           </section>
 
@@ -183,8 +194,7 @@ export default function PrivacyPolicyModal({
               14. Legal Compliance
             </h3>
             <p>
-              This policy is intended to comply with applicable Indian laws,
-              including the Digital Personal Data Protection Act, 2023.
+              This Privacy Policy is intended to comply with applicable Indian laws and regulations, including the Digital Personal Data Protection Act, 2023, the Information Technology Act, 2000, relevant rules framed thereunder, and applicable consumer protection and eCommerce regulations.
             </p>
           </section>
 
@@ -193,8 +203,8 @@ export default function PrivacyPolicyModal({
               15. Cross-Border Data Transfers
             </h3>
             <p>
-              Information may be processed or stored outside India where
-              necessary to provide services.
+             Certain technology providers, infrastructure partners, or service providers engaged by us may process or store information on servers located outside India. By using the Platform, users acknowledge and consent to such processing where necessary for providing services, subject to reasonable safeguards and applicable legal requirements.
+
             </p>
           </section>
 
@@ -208,6 +218,9 @@ export default function PrivacyPolicyModal({
               Email: [GRIEVANCE_OFFICER_EMAIL]
               <br />
               Phone: [GRIEVANCE_OFFICER_PHONE]
+              <br />
+              Address: [GRIEVANCE_OFFICER_ADDRESS]
+
             </p>
           </section>
 
@@ -216,8 +229,7 @@ export default function PrivacyPolicyModal({
               17. Changes to this Privacy Policy
             </h3>
             <p>
-              We may update this Privacy Policy from time to time. Changes
-              become effective upon publication.
+             We reserve the right to update, amend, or modify this Privacy Policy from time to time. Any changes will become effective upon publication of the revised version on the Platform. Users are encouraged to review this Privacy Policy periodically to remain informed about how information is handled.
             </p>
           </section>
 
@@ -231,6 +243,8 @@ export default function PrivacyPolicyModal({
               Phone: [SUPPORT_PHONE]
               <br />
               Website: [WEBSITE_URL]
+              <br />
+              Address: [REGISTERED_ADDRESS]
             </p>
           </section>
         </div>
