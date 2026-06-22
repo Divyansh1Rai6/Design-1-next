@@ -1,6 +1,19 @@
+"use client";
+
+import { useState } from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MapPin, Phone, Mail } from 'lucide-react';
+import PrivacyPolicyModal from "./Footer-modals/Privacy&Policy";
+import TermsConditionsModal from "./Footer-modals/Terms&Conditions";
+import ShippingPolicyModal from "./Footer-modals/ShippingPolicy";
+import ReturnPolicyModal from "./Footer-modals/ReturnPolicy";
+import CookiePolicyModal from "./Footer-modals/CookiePolicy";
+
+type ActiveModal = "privacy" | "terms" | "shipping" | "return" | "cookie" | null;
+
 export default function Footer() {
+  const [activeModal, setActiveModal] = useState<ActiveModal>(null);
+
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
@@ -42,10 +55,46 @@ export default function Footer() {
           <div>
             <h4 className="mb-4">Legal</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Sitemap</a></li>
+              <li>
+                <button
+                  onClick={() => setActiveModal("privacy")}
+                  className="hover:text-white transition-colors text-left"
+                >
+                  Privacy Policy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setActiveModal("terms")}
+                  className="hover:text-white transition-colors text-left"
+                >
+                  Terms &amp; Conditions
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setActiveModal("cookie")}
+                  className="hover:text-white transition-colors text-left"
+                >
+                  Cookie Policy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setActiveModal("shipping")}
+                  className="hover:text-white transition-colors text-left"
+                >
+                  Shipping Policy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => setActiveModal("return")}
+                  className="hover:text-white transition-colors text-left"
+                >
+                  Return Policy
+                </button>
+              </li>
             </ul>
           </div>
 
@@ -74,6 +123,12 @@ export default function Footer() {
           </p>
         </div>
       </div>
+
+      {activeModal === "privacy" && <PrivacyPolicyModal onClose={() => setActiveModal(null)} />}
+      {activeModal === "terms" && <TermsConditionsModal onClose={() => setActiveModal(null)} />}
+      {activeModal === "shipping" && <ShippingPolicyModal onClose={() => setActiveModal(null)} />}
+      {activeModal === "return" && <ReturnPolicyModal onClose={() => setActiveModal(null)} />}
+      {activeModal === "cookie" && <CookiePolicyModal onClose={() => setActiveModal(null)} />}
     </footer>
   );
 }
